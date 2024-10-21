@@ -24,11 +24,11 @@ export default function WhatsappGroup() {
   }, [groupId]);
 
   return (
-    <div className="flex items-center justify-center min-h-screen">
+    <div className="flex items-center justify-center h-screen">
       {loading && (
-        <div className="text-xl font-semibold">
+        <h1 className="text-xl font-semibold text-center">
         {message}
-        </div>
+        </h1>
       )}
     </div>
   );
